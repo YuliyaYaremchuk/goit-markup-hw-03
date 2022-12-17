@@ -179,8 +179,8 @@ footer {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 192px;
+  padding-bottom: 192px;
 }
 
 .hero-title {
@@ -245,7 +245,7 @@ footer {
   letter-spacing: 0.02em;
 }
 
-.vaues-section{
+.values-section{
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -260,18 +260,22 @@ footer {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.values-subtitle{
+  padding-bottom: 8px;
+}
+
 .about-us {
   padding-bottom: 120px;
 }
 
 .about-us-list {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .about-us-item {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .team {
@@ -289,7 +293,7 @@ footer {
 .team-item {
   background-color: var(--bcg-color-font);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .employee-description {
